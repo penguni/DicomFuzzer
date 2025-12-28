@@ -1,0 +1,4 @@
+pydicom>=2.4.0
+pynetdicom>=2.0.0
+click>=8.1.0
+pyyaml>=6.0

@@ -1,0 +1,13 @@
+fuzzer:
+  seed: 12345
+  strategies:
+    - bit_flip
+    - byte_flip
+    - int_overflow
+  max_iterations: 100
+  delay: 0.1
+
+network:
+  ae_title_params:
+    calling_ae: "FUZZER_SCU"
+    called_ae: "TARGET_SCP"
