@@ -1,0 +1,9 @@
+=== 통합 테스트 결과 보고서 (Integration Test Report) ===
+[FAIL] Fuzzer SCP 서버 시작 실패.
+[PASS] Tester SCU가 서버에 성공적으로 연결하고 응답을 받음.
+
+=== Raw Logs ===
+[CLI] Starting Tester in SCU Mode...
+Sending C-ECHO to 127.0.0.1:11112 (Called AE: FUZZER_SCP)...
+C-ECHO Response: 65024
+[CLI] SCU Action Completed.

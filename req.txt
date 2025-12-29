@@ -1,0 +1,41 @@
+다음중 DONE> 이 붙은 항목은 무시해.
+나는 의료기기 개발자이며 보안 담당자로 DICOM Fuzzing Tool을 만들고자 해.
+
+DONE>1. DICOM Fuzzing Tool Skeleton 개발
+1) 개발 계획을 먼저 세워줘.
+2) 개발은 skeleton 개발, 각 분야 세부 구현, 테스트 케이스 작성으로 
+진행할거야. 
+3) 개발 계획은 md 파일이나 텍스트 파일로 출력해줘.
+
+DONE>2. DICOM Fuzzing Tool 구현
+1) 계획을 세운대로 구현을 해줘.
+
+DONE>3. 수정. 해당 명령들을 GUI를 통해서 설정하고 수행할수 있도록 코드 새로 만들어줘.
+1) GUI를 통해서 설정하고 수행할수 있도록 코드 새로 만들어줘.
+2) 테스트하는 방법 가이드를 만들어줘.
+3) 테스트를 해줘.
+
+DONE>4. 이 프로그램에 DICOM Client를 테스트할수 있는 fuzzer 프로그램을 추가해줘.
+1) GUI에서 DICOM Server 와 Client를 구분해서 테스트할수 있도록 코드 새로 만들어줘.
+2) 테스트하는 방법 가이드를 만들어줘.
+3) 테스트를 해줘.
+
+DONE>5. DICOM Client Fuzzer를 테스트할 수 있는 테스트 프로그램도 추가해줘.
+1) GUI에서 DICOM Server 와 Client를 구분해서 테스트할수 있도록 코드 새로 만들어줘.
+2) 테스트하는 방법 가이드를 만들어줘.
+3) 테스트를 해줘.
+
+DONE>6. DICOM Fuzzer를 테스트할수 있는 별도 테스트 DICOM Fuzzer Tester 프로그램을 추가해줘.
+1) GUI에서 DICOM Server 와 Client 역할을 하면 될거야.
+2) Fuzzer가 테스트를 해서 이상 동작을 하거나 문제가 생길경우 로그로 남길수 있게 해줘.
+3) 테스트하는 방법 가이드를 만들어줘.
+4) 테스트를 해줘.
+
+7. DICOM Fuzzer Tester를 명령어로도 실행할수 있게 변경해줘.
+
+8. DICOM Fuzzer 와 Tester를 동시에 동작시켜서 테스트하고자 한다.
+1) DICOM Fuzzer가 Server로 동작시키고 Tester를 Client로 동작시키게 해.
+2) 그 결과를 Log로 남길수 있게 해주고, 테스트하고 결과를 분석해줘.
+3) 테스트해서 이상이 있는 경우 디버깅 해줘.
+4) fuzzing이 제대로 동작하는지 확인하고, 그 결과도 결과로 남겨줘.
+5) 결과는 한국어로도 남겨줘.
